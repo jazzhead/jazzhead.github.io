@@ -1,0 +1,49 @@
+# www.robotstxt.org/
+
+# --- Google ---
+
+# support.google.com/webmasters/answer/6062608?hl=en
+User-agent: Googlebot
+Disallow: /img/
+Disallow: /js/
+
+# support.google.com/webmasters/answer/1061943?hl=en
+User-agent: Googlebot-Image
+Disallow: /
+
+# --- Bing ---
+
+# www.bing.com/webmaster/help/which-crawlers-does-bing-use-8c184ec0
+User-agent: bingbot
+Disallow: /img/
+Disallow: /js/
+
+User-agent: msnbot
+Disallow: /img/
+Disallow: /js/
+
+User-agent: msnbot-media
+Disallow: /
+
+User-agent: BingPreview
+Disallow: /
+
+# --- Yahoo ---
+
+# help.yahoo.com/kb/SLN22600.html
+User-agent: Slurp
+Disallow: /img/
+Disallow: /js/
+
+# --- Twitter ---
+
+# dev.twitter.com/cards/troubleshooting
+# Allow images for twitter cards
+User-agent: Twitterbot 
+Disallow: /js/
+
+# --- The rest ---
+
+User-agent: *
+Disallow: /
+
